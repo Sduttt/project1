@@ -1,0 +1,152 @@
+/* top part */
+*{
+    margin: 10px 12px;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    list-style: none;
+}
+.list-item{
+    padding: 0 10px;
+    font-family: Orbitron;
+    font-size: 20px;
+    font-weight: 500;
+}
+.button-group{
+    display: flex;
+}
+.logo{
+    width: 120px;
+}
+.nav-button{
+    padding: 6px 45px;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 18px;
+    color: #515151;
+    margin-right: 20px;
+}
+svg{
+    width: 25px;
+    position: relative;
+    left: 30px;
+}
+/* middle design part */
+.globe{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    bottom: 240px;
+    left: 170px;
+}
+.globe > img{
+    width: 50px;
+}
+.square{
+    width: 200px;
+    position: relative;
+    left: 125px;
+    top: 240px;
+}
+.square > img{
+    width: 280px;
+}
+.star{
+    width: 200px;
+    position: relative;
+    left: 780px;
+    bottom: 200px;
+}
+.star > img {
+    width: 45px;
+}
+.hero{
+    position: relative;
+    bottom: 285px;
+}
+.hero > img{
+    width: 350px;
+}
+
+
+/* text part */
+.hero-container-right{
+    position: absolute;
+    bottom: 45px;
+    left: 475px;
+    margin: 5px 30px;
+    text-align: center;
+}
+.hero-heading{
+    font-family: Orbitron;  
+    font-size: 52px;  
+    padding-bottom: 30px;
+}
+.hero-description{
+    font-family: Poppins;
+    text-align: center;
+    margin: 5px 135px 50px 135px;
+    font-size: 12px;
+    color: #515151;
+}
+.button-email{
+    padding: 4px 25px;
+    border-radius: 10px;
+    background-color: #fff;
+    font-family: Orbitron;
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 0px;
+}
+.button-join{
+    font-family: Orbitron;
+    border-radius: 9px;
+    background-color: #0000;
+    color: #fff;
+    font-size: 15px;
+    box-shadow: inset 20px 25px #0c0707;
+    margin-left: 5px;
+}
+.contact-heading{
+    font-family: Poppins;
+    color: #515151;
+    font-weight: normal;
+    position: relative;
+    /* top: 45px; */
+}
+.hero-container-right > div:nth-child(4){ /* Contact portion */
+    position: relative;
+    top: 70px;
+}
+.icons > span >img{
+    width: 30px;
+}
+.icons > span{
+    padding: 0px;
+    margin: -5px;
+}
+.list-item:hover{
+    font-size: 21px;
+    font-weight: 600;
+    text-decoration: underline;
+    padding: -10px;
+    cursor: pointer;
+}
+
+.icons{
+    position: relative;
+    right: 35px;
+    bottom: 35px;
+}
+.icons::before{
+    content: url('./assets/start.png');
+    display: inline;
+    position: relative;
+    right: 190px;
+}
+
